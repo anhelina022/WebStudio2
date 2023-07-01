@@ -16,7 +16,7 @@ a {
 }
 
 .container{
-    width: 1600px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -56,6 +56,11 @@ a {
     align-items: center;
 }
 
+.nav-list-text:hover, .nav-list-text:focus {
+    font-weight: 600;
+    color: #94CFFF;
+}
+
 .nav-list-text{
     font-family: 'Roboto';
     font-style: normal;
@@ -66,6 +71,7 @@ a {
     color: #212121;
 }
 
+
 .header-right{
     display: flex;
     justify-content: space-between;
@@ -73,27 +79,14 @@ a {
     align-items: center;
 }
 
-.features-subtitle{
-    display: block;
-    background: #2196F3 ;
-    border-radius: 4px;
-    font-family: 'Roboto' sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: #FFFFFF;
-    width: 216px;
-    height: 50px;
-    margin: 0 auto;
+.features-subtitle7:hover, .features-subtitle7:focus {
+    color: #94CFFF;
 }
 
 .features-subtitle7{
     display: block;
     background: ghostwhite;
-   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-family: 'Roboto' sans-serif;
     font-style: normal;
@@ -149,21 +142,21 @@ a {
     padding: 100px 0;
 }
 
-.nav-list-text2 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #2196F3;
+.img-8:hover, .img-8:focus {
+    background: #2196F3E5;
+}
+
+.img-8 {
+    width: 370px;
+    height: 294px;
 }
 
 .footer{
-    display: flex;
     background:#2F303A;
-    max-width: 100%;
-    height: 300px;
+}
+
+.studio {
+    color: #FFFFFF;
 }
 
 .footer-text{
@@ -176,17 +169,12 @@ a {
     
 }
 
-.wed2 {  
-    color: #2196F3;
-}
-
 .nav-list-3 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    /* or 171% */
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -195,30 +183,12 @@ a {
     color: #FFFFFF;
 }
 
-/* Vector */
-
-.Vector {
-position: absolute;
-left: 70.89%;
-right: 17.11%;
-top: 17.31%;
-bottom: 70.7%;
-background: #FFFFFF;
-}
-
-/* Ellipse */
-
-.Ellipse {
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-background: rgba(255, 255, 255, 0.1);
-}
-
 .color-footer {
-    display: flex;
-    justify-content: space-around;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: normal;
+    
     color: #FFFFFF;
 }
